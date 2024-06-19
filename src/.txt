@@ -1,0 +1,2 @@
+  const url = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}`; api key1
+https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}`api key2
