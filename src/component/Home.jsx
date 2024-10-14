@@ -3,7 +3,7 @@ import axios from 'axios';
 import "../assets/style.css/Dash.css"
 import { Link } from 'react-router-dom';
 const Home = () => {
-  const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState([]);           
   const apiKey = 'fa8a52fc723a5006037209473070708a';
   const url = `https://api.themoviedb.org/3/trending/movie/week?api_key=${apiKey}`;
 
@@ -51,6 +51,6 @@ const Home = () => {
 
     </div>
   );
-};
+}; 
 
 export default Home;
